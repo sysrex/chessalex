@@ -1,0 +1,54 @@
+baseURL = 'http://chessalex.com/'
+languageCode = 'en-us'
+title = 'Chess Alex'
+
+builddrafts = false
+canonifyurls = false
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+#disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Alex"
+intro = "Noob Extraordinaire"
+description = "How I started learning to play chess."
+authorimage = "logo.png"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+
+
+
+## Extras
+[params.extra]
+copyright = "chessalex.com"
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+[[menu.main]]
+name = "openings"
+weight = 100
+identifier = "openings"
+url = "/openings/"
+[[menu.main]]
+name = "about"
+identifier = "about"
+weight = 200
+url = "/about/"
